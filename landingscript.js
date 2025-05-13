@@ -20,7 +20,8 @@ list.forEach((item, index) => {
         // Prevent default behavior only for items that are not the "Hotels" link
         if (item.querySelector('.text').textContent !== "Hotels" &&
            item.querySelector('.text').textContent !== "Apartments" &&
-           item.querySelector('.text').textContent !== "Activities"
+           item.querySelector('.text').textContent !== "Activities" &&
+           item.querySelector('.text').textContent !== "Flights"
           
           )
            
